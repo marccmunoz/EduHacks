@@ -1,0 +1,326 @@
+body {
+  width: 100%;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.tabla1 {
+  padding: 5px;
+  background-color: gold;
+  font-family: 'Sherika', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  
+}
+
+.flecha1 {
+width: 50px;
+flex: end;
+text-align: end;
+padding-right: 15px;
+}
+
+.flecha2 {
+  width: 50px;
+  flex: end;
+  text-align: end;
+  padding-left: 15px;
+}
+
+.marquee {
+  width: 800px;
+  padding-top: 8px;
+}
+
+.upanel2 {
+  text-align: center;
+  color: #5ce1e6;
+  text-transform: uppercase;
+  font-family: 'Sherika', sans-serif;
+}
+
+.tabla2 {
+  padding: 10px;
+  background-color: silver;
+  font-family: 'Sherika', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.upanel {
+  width: 25px;
+  text-align: end;
+}
+
+.tabla3 {
+  padding: 10px;
+  background-color: #D57D33;
+  font-family: 'Sherika', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.tabla {
+  padding: 10px;
+  background-color: #214a80;
+  font-family: 'Sherika', sans-serif;
+}
+
+.ranking1 {
+  font-size: x-large;
+  color: black;
+}
+
+.ranking2 {
+  font-size: large;
+  color: black;
+}
+
+.ranking3 {
+  font-size: medium;
+  color: black;
+}
+
+.ranking {
+  font-size: 15px;
+  color: black;
+}
+
+#logohome {
+  width: 200px;
+  padding-bottom: 5px;
+}
+
+.imghome{
+  width: 50px;
+  padding-right: 15px;
+}
+
+.navbar {
+  position:fixed;
+  width: 100%;
+}
+
+.navbar2 {
+  position:fixed;
+  width: 100%;
+}
+
+.boton{
+  width: 100px;
+}
+
+#logo {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.login-dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home {
+  position : absolute;
+	width : 100%;
+	height : 100%;
+}
+
+.descarga {
+    border:none;
+    border-bottom:1px solid #1303fc7e;
+    border-radius:0;
+    box-shadow:none;
+    outline:none;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.descarga2 {
+  padding-left: 5px;
+  padding-bottom: 5px;
+  width: 35px;
+}
+
+.texto {
+  text-align: start;
+  color: #5ce1e6;
+  text-transform: uppercase;
+  font-family: 'Sherika', sans-serif;
+}
+
+.texto2 {
+  text-align: start;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Sherika', sans-serif;
+}
+
+.select {
+  width: 100%;
+  text-align: center;
+  border: solid black 1px;
+  color: black;
+  margin-top: 15px;
+  font-family: 'Sherika', sans-serif;
+  padding: 5px;
+}
+
+option {
+  padding: auto;
+  font-family: 'Sherika', sans-serif;
+  border-radius: 0px;
+}
+
+.titol {
+  text-align: start;
+  color: #5ce1e6;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: 'Sherika', sans-serif;
+}
+
+.puntos {
+  color: #5ce1e6;
+  float: right;
+  font-size: x-large;
+  font-family: 'Sherika', sans-serif;
+}
+
+.bad {
+  text-align: center;
+  color: red;
+  background-color: rgba(92, 0, 0, 0.473);
+}
+
+.ok {
+  text-align: center;
+  color: green;
+  background-color: rgba(11, 92, 0, 0.473);
+}
+
+  .login-dark form {
+    max-width:320px;
+    margin-top: 100px;
+    background-color:rgba(0,0,0,0.1);
+    padding:40px;
+    border-radius:4px;
+    color:#fff;
+    box-shadow:3px 3px 4px rgba(0,0,0,0.4);
+  }
+  
+  .login-dark .illustration {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login-dark form .form-control {
+    background-color: #214a80;
+    border:none;
+    border-bottom:1px solid #1303fc7e;
+    border-radius:0;
+    box-shadow:none;
+    outline:none;
+    color: white;
+  }
+  
+  .login-dark ::placeholder {
+    color: hsla(219, 33%, 90%, 0.801);;
+  }
+  .login-dark form .btn-primary {
+    background:#214a80;
+    border:none;
+    border-radius:4px;
+    padding:11px;
+    box-shadow:none;
+    margin-top:26px;
+    text-shadow:none;
+    outline:none;
+    color: white;
+  }
+  
+  .login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+    background:#214a80;
+    outline:none;
+  }
+  
+  option {
+    background-color: #5ce1e6;
+  }
+
+  .select {
+    background-color: #5ce1e6;
+  }
+
+  .login-dark form .createacc {
+    display:block;
+    text-align:center;
+    font-size:12px;
+    color:#ffffff;
+    opacity:0.9;
+    text-decoration:none;
+  }
+  
+  .login-dark form .createacc:hover, .login-dark form .createacc:active {
+    opacity:1;
+    text-decoration:none;
+  }
+  
+  .login-dark form .btn-primary:active {
+    transform:translateY(1px);
+  }
+
+  .linia {
+    display: inline;
+  }
+
+  @media (max-width: 470px) {
+    .login-dark {
+      height: 90vh;
+    }
+    .uwu {
+      visibility: hidden;
+      width: 0px;
+    }
+    #logohome {
+      margin-top: -75px;
+    }
+    .navbar{
+      height: 75px;
+      top: 0px;
+      display: flex;
+      justify-content: center;
+    }
+    .navbar2 {
+      bottom: 0px;
+      text-align: center;
+    }
+    .login-dark form {
+      max-width:320pc;
+      margin-top: 25px;
+    }
+    .flecha1{
+      width: 0px;
+      visibility: hidden;
+      }
+    .flecha2{
+        width: 0px;
+        visibility: hidden;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .marquee{
+      width: 0px;
+      visibility: hidden;
+    }
+    marquee {
+      width: 0px;
+      visibility: hidden;
+    }
+  }
